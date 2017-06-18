@@ -16,7 +16,7 @@ h1 {
 	font-size: 30px;
 	color: #a2a2c3;
 	margin-top: 0px;
-	font-family: "Courier New", Times, serif;
+	font-family: 'Arapey', serif;
 }
 
 .image{
@@ -34,12 +34,22 @@ margin-top:40px;
 	margin-left: 40px;
 	margin-right: 40px;
 	color: #29293d;
-	 font-family: "Courier New", Times, serif;
+	font-family: 'Arapey', serif;
+	font-size: 18px;
+}
+
+.text-three{
+	margin-left: 40px;
+	margin-right: 40px;
+	color: #29293d;
+	font-family: 'Arapey', serif;
+	font-size: 18px;
 }
 
 .text-two{
 	text-align: center;
 	color: #29293d;
+	font-size: 18px;
 }
 
 .social-media{
@@ -65,6 +75,17 @@ h1{
 	font-size: 50px;
 	margin-top:23px;
 }
+
+.text-two{
+	font-size: 30px;
+
+}
+
+.text-three{
+	font-size: 30px;
+
+}
+
 p{
 	font-size: 30px;
 	margin-right: 130px;
@@ -83,15 +104,11 @@ h2{
 	h1 {
 		font-size: 60px;
 	}
-	.total{
-		display:flex;
-	}
 	.main-image{
-		margin-left: 150px;
+		
 	}
 	.text-one{
-		margin-left:-150px;
-		margin-top: 30px;
+		
 	}
 	p{
 		margin-bottom: 30px;
@@ -105,10 +122,9 @@ h2{
 }
 @media only screen and (min-width: 1421px) {
 	.text-one{
-		margin-right: 180px;
+
 	}
 	.main-image{
-		margin-left: 250px;
-		margin-right: 60px;
+		
 	}
 	}
